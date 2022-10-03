@@ -1,0 +1,192 @@
+/* 
+Arvo used for headers 
+font-family: 'Arvo', serif;
+
+Lato used for the rest of the page content 
+font-family: 'Lato', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Lato:wght@300&display=swap');
+
+/* FINAL CSS */
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+caption {
+  font-family: 'Arvo', serif;
+  font-size: 3.0rem;
+  margin: 16px 32px;
+  padding: 32px 64px;
+}
+
+table {
+  width: 100%;
+  font-size: 1.5rem;
+  border-collapse: collapse;
+  box-shadow: 0 5px 25px lightgray;
+}
+
+thead{
+  background-color: #f0bc3a;
+}
+
+th {
+  margin: 8px 16px;
+  padding: 16px 32px;
+  font-family: 'Arvo', serif;
+}
+
+th:first-child {
+  border-radius: 8px 0 0 0;
+}
+th:last-child {
+  border-radius: 0 8px 0 0;
+}
+
+tbody:last-child {
+  border-bottom: 8px solid #f0bc3a;
+}
+
+tbody > tr:hover {
+  background-color: #fbdf99;
+}
+
+tr:nth-child(even){
+  background-color: #fff7e9;
+  border-top: 1px solid #daa520;
+  border-bottom: 1px solid #daa520;
+}
+
+td {
+  padding: 16px 48px;
+}
+
+
+/* Non-Responsive Fonts rems demonstration */
+/* body {
+  font-family: 'Lato', sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+caption {
+  font-family: 'Arvo', serif;
+  font-size: 48px;
+  margin: 16px 32px;
+  padding: 32px 64px;
+}
+
+table {
+  width: 100%;
+  font-size: 24px;
+  border-collapse: collapse;
+  box-shadow: 0 5px 25px lightgray;
+}
+
+thead{
+  background-color: #f0bc3a;
+}
+
+th {
+  margin: 8px 16px;
+  padding: 16px 32px;
+  font-family: 'Arvo', serif;
+}
+
+th:first-child {
+  border-radius: 8px 0 0 0;
+}
+th:last-child {
+  border-radius: 0 8px 0 0;
+}
+
+tbody:last-child {
+  border-bottom: 8px solid #f0bc3a;
+}
+
+tbody > tr:hover {
+  background-color: #fbdf99;
+}
+
+tr:nth-child(even){
+  background-color: #fff7e9;
+  border-top: 1px solid #daa520;
+  border-bottom: 1px solid #daa520;
+}
+
+td {
+  padding: 16px 48px;
+} */
+
+
+/* TEST STYLES */
+/* body {
+  font-family: 'Lato', sans-serif;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  text-align: center;
+}
+
+caption {
+  font-family: 'Arvo', serif;
+  font-size: 48px;
+  margin: 16px 32px;
+  padding: 32px 64px;
+}
+
+table {
+  width: 100%;
+  font-size: 24px;
+  border-collapse: collapse;
+  box-shadow: 0 5px 25px lightgray;
+}
+
+thead{
+  background-color: #f0bc3a;
+}
+
+th {
+  margin: 8px 16px;
+  padding: 16px 32px;
+  font-family: 'Arvo', serif;
+}
+
+th:first-child {
+  border-radius: 8px 0 0 0;
+}
+th:last-child {
+  border-radius: 0 8px 0 0;
+}
+
+tbody:last-child {
+  border-bottom: 8px solid #f0bc3a;
+}
+
+tbody > tr:hover {
+  background-color: #fbdf99;
+}
+
+tr:nth-child(even){
+  background-color: #fff7e9;
+  border-top: 1px solid #daa520;
+  border-bottom: 1px solid #daa520;
+}
+
+td {
+  padding: 16px 48px;
+} */
+
+
+
